@@ -5,7 +5,7 @@ export default props => {
 
     const gerarNumeroNaoContido = (array) => {
         const min = 1
-        const max = 6
+        const max = 60
         const novoNumero = parseInt(Math.random() * (max - min)) + min
         return array.includes(novoNumero)
             ? gerarNumeroNaoContido(array) : novoNumero
