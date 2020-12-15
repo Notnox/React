@@ -1,14 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Langar&display=swap');
+
 body {
-    font-family: Verdana, sans-serif;
-    font-weight: 300;
-    font-size: 1.4rem;
-    color: #fff;
-    text-align: center;
-
-    background-color: #827a7d;
-    background-image: linear-gradient(0deg, #827a7d 0%, #482441 100%);
-}
-
-h1, h2, h3 {
-    font-weight: 300;
+    background-color: #4A235A;
 }

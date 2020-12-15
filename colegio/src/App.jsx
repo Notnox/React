@@ -1,9 +1,11 @@
 import React from 'react'
 
+import Menu from './estrutura/Menu'
+
 export default props => {
     return (
         <div>
-            <p>Começando!</p>
+            <Menu></Menu>
         </div>
     )
 }
