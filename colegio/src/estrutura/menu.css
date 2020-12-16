@@ -7,6 +7,10 @@
     background-color:#6C3483;
 
     border-radius: 10px;
+
+    margin: auto;
+
+    max-width: 85%;
 }
 .logoMarca {
     display: flex;
@@ -78,7 +82,7 @@
 }
 
 .lupa:hover {
-    transform: scale(.7);
+    opacity: .7;
 }
 
 .lupa:active {
@@ -140,4 +144,18 @@
 
 .cadastro:active {
     transform: scale(.8);
+}
+
+@media (max-width: 1000px){
+    .cabecalho {
+        transform: scale(.8);
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 850px){
+    .cabecalho {
+        transform: scale(.6);
+        max-width: 100%;
+    }
 }

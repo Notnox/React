@@ -6,7 +6,7 @@ export default props => {
         <header className='cabecalho'>
             <div className='logoMarca'>
                 <div className='logo'></div>
-                <p className='empresa'>Colegio Amorinha</p>
+                <p className='empresa'>Colégio Amorinha</p>
             </div>
             <ul className='opLista'>
                 <li className='op'>

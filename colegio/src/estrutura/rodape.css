@@ -1,0 +1,13 @@
+footer, a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color:#F5EEF8;
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    footer, a {
+        transform: scale(.8);
+        max-width: 100%;
+    }
+}
