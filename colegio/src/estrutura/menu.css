@@ -8,9 +8,8 @@
 
     border-radius: 10px;
 
-    margin: auto;
+    margin: 30px;
 
-    max-width: 85%;
 }
 .logoMarca {
     display: flex;
@@ -28,6 +27,8 @@
     margin: 10px;
 
     cursor:pointer;
+
+    border: 2px solid black;
 }
 
 .logo:hover{
@@ -49,6 +50,8 @@
     user-select: none;
 
     cursor:pointer;
+
+    border: 2px solid black;
 }
 
 .empresa:hover {
@@ -61,10 +64,13 @@
 
 .opLista {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
 
     list-style: none;
+
+    border: 2px solid red;
 }
 .op {
     margin: 10px;
@@ -79,6 +85,8 @@
     cursor:pointer;
 
     margin: 10px;
+
+    border: 2px solid black;
 }
 
 .lupa:hover {
@@ -105,6 +113,8 @@
     outline-style: none;
 
     display: none;
+
+    border: 2px solid black;
 }
 
 #txtBusca:focus {
@@ -115,6 +125,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    padding: 0;
+
+    border: 2px solid blue;
 }
 
 #check {
@@ -123,6 +137,11 @@
 
 #check:checked + #txtBusca{
     display: block;
+}
+
+.pag{
+    display: flex;
+    flex-direction: row;
 }
 
 .cadastro {
@@ -146,16 +165,68 @@
     transform: scale(.8);
 }
 
-@media (max-width: 1000px){
-    .cabecalho {
-        transform: scale(.8);
-        max-width: 100%;
+@media (max-width: 850px){
+    .empresa{
+        font-size: 1.7rem;
+    }
+    #txtBusca, .cadastro{
+        font-size: .8rem;
+    }
+    #txtBusca{
+        width: 100px;
+    }
+    .opLista {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 700px){
+    .empresa{
+        display: none;
     }
 }
 
-@media (max-width: 850px){
-    .cabecalho {
+@media (max-width: 500px){
+    .logo{
+        transform: scale(.8);
+        margin: 0;
+    }
+    .logo:hover{
+        opacity: .6;
+    }
+    .logo:active {
+        transform: scale(.7);
+    }
+    .lupa{
+        transform: scale(.7);
+    }
+    .lupa:hover {
+        opacity: .5;
+    }
+    
+    .lupa:active {
         transform: scale(.6);
-        max-width: 100%;
+    }
+    #txtBusca, .cadastro{
+        font-size: .8rem;
+    }
+    #txtBusca{
+        width: 75px;
+    }
+    .opLista, .lupa {
+        padding: 0;
+        margin: 0;
+    }
+    .cadastro {
+        margin:10px 0 10px 0;
+    }
+    .pag{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px){
+    .busca {
+        flex-direction: column;
     }
 }

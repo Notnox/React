@@ -16,8 +16,12 @@ export default props => {
                         <label htmlFor="check"><div className="lupa"></div></label>
                     </div>
                 </li>
-                <li className='op'><p className='cadastro'>Cadastro</p></li>
-                <li className='op'><p className='cadastro'>Alunos</p></li>
+                <li className='op'>
+                    <div className="pag">
+                        <p className='cadastro'>Cadastro</p>
+                        <p className='cadastro'>Alunos</p>
+                    </div>
+                </li>
             </ul>
         </header>
     )

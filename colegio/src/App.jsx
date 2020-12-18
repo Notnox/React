@@ -1,3 +1,4 @@
+import './app.css'
 import React from 'react'
 
 import Menu from './estrutura/Menu'
@@ -6,7 +7,7 @@ import Rodape from './estrutura/Rodape'
 
 export default props => {
     return (
-        <div>
+        <div className='fundoPrincipal'>
             <Menu/>
             <Corpo/>
             <Rodape/>
