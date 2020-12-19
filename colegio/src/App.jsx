@@ -1,16 +1,17 @@
-import './app.css'
-import React from 'react'
+import React, { Fragment } from 'react'
 
-import Menu from './estrutura/Menu'
-import Corpo from './estrutura/Corpo'
-import Rodape from './estrutura/Rodape'
+import Header from './Components/Header'
+import Section from './Components/Section'
+import Footer from './Components/Footer'
 
-export default props => {
-    return (
-        <div className='fundoPrincipal'>
-            <Menu/>
-            <Corpo/>
-            <Rodape/>
-        </div>
+function App(){
+    return(
+        <Fragment>
+            <Header />
+            <Section />
+            <Footer />
+        </Fragment>
     )
 }
+
+export default App

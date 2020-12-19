@@ -1,7 +1,7 @@
-import './rodape.css'
+import './css/footer.css'
 import React from 'react'
 
-export default props => {
+const Footer = () => {
     return (
         <footer>
             <p>Trabalho desenvolvido por LucasPires</p>
@@ -9,3 +9,5 @@ export default props => {
         </footer>
     )
 }
+
+export default Footer

@@ -1,7 +1,6 @@
-import './corpo.css'
 import React from 'react'
 
-export default props => {
+const Principal = () => {
     return (
         <section className='corpo'>
             <h1>📢Está página é uma ferramenta para cadastro, exclusão, edição ou visualização de alunos.</h1>
@@ -25,3 +24,5 @@ export default props => {
         </section>
     )
 }
+
+export default Principal
