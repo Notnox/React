@@ -25,5 +25,28 @@ h3 {
 }
 
 @media (max-width: 850px){
+    h1, h2, h3 {
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 700px){
+    h1, h2, h3 {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 500px){
+    h1, h2, h3 {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 350px){
+    h1, h2, h3 {
+        font-size: .7rem;
+    }
+}
 
+@media (max-width: 270px){
+    .corpo {
+        display: none;
+    }
 }

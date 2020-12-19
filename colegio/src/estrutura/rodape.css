@@ -7,6 +7,29 @@ footer, a {
     margin-bottom: 30px;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 850px){
+    footer {
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 700px){
+    footer {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 500px){
+    footer {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 350px){
+    footer {
+        font-size: .7rem;
+    }
+}
 
+@media (max-width: 270px){
+    footer {
+        display: none;
+    }
 }

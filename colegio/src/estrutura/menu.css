@@ -1,3 +1,6 @@
+.semSuporte{
+    display: none;
+}
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -27,8 +30,6 @@
     margin: 10px;
 
     cursor:pointer;
-
-    border: 2px solid black;
 }
 
 .logo:hover{
@@ -50,8 +51,6 @@
     user-select: none;
 
     cursor:pointer;
-
-    border: 2px solid black;
 }
 
 .empresa:hover {
@@ -69,8 +68,6 @@
     align-items: center;
 
     list-style: none;
-
-    border: 2px solid red;
 }
 .op {
     margin: 10px;
@@ -85,8 +82,6 @@
     cursor:pointer;
 
     margin: 10px;
-
-    border: 2px solid black;
 }
 
 .lupa:hover {
@@ -113,8 +108,6 @@
     outline-style: none;
 
     display: none;
-
-    border: 2px solid black;
 }
 
 #txtBusca:focus {
@@ -127,8 +120,6 @@
     align-items: center;
 
     padding: 0;
-
-    border: 2px solid blue;
 }
 
 #check {
@@ -228,5 +219,20 @@
 @media (max-width: 350px){
     .busca {
         flex-direction: column;
+    }
+    #txtBusca{
+        width: 65px;
+    }
+}
+
+@media (max-width: 270px){
+    .cabecalho {
+        display: none;
+    }
+    .semSuporte{
+        display: flex;
+        text-align: center;
+        margin-top: 30px;
+        color:#D2B4DE;
     }
 }
