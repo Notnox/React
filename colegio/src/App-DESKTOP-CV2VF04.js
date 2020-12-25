@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import Header from './Components/Header'
-import Section from './Components/Section'
+import Section from './Components/Section.js'
 import Footer from './Components/Footer'
 
 function App(){
