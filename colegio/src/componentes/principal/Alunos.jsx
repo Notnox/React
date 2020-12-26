@@ -41,7 +41,7 @@ class Alunos extends Component {
         return (
             <Fragment>
                 <Page title="Cadastro de alunos">
-                    <Cadastro/>
+                    <Cadastro aluno={this.state.alunoEmEdição} />
                 </Page>
                 <Page title="Lista de alunos">
                     <Table 

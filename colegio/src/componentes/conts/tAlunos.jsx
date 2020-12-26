@@ -2,15 +2,15 @@ export const tAlunos = [
     {
         id: 1,
         nome: 'Carlos',
-        DdN: '01/05/2015',
+        DdN: '2015-01-05',
         idade: 5,
-        ra: 's',
+        ra: 'checkedA',
     },
     {
         id: 2,
         nome: 'Eduarda',
-        DdN: '14/09/2017',
+        DdN: '2017-04-17',
         idade: 3,
-        ra: 'n',
+        ra: ''
     }
 ]
